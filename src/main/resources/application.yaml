@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: ${JPA_DB_URL}
+    username: ${JPA_DB_USERNAME:user}
+    password: ${JPA_DB_PASSWORD:password}
+    driver-class-name: ${JPA_DRIVER_NAME:com.mysql.cj.jdbc.Driver}
